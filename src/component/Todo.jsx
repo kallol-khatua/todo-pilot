@@ -6,6 +6,8 @@ import Table from "./Table";
 function Todo() {
   const [todos, setTodos] = useState([]);
   //   console.log(todos);
+
+  //   only add the current task
   const addTodo = (todosArray) => {
     setTodos(todosArray);
   };

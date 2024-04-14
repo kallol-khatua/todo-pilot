@@ -1,0 +1,26 @@
+.inputform{
+    width: 80%;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+#inputfield{
+    width: 100%;
+    color: #222222;
+}
+#inputfield::placeholder{    
+    font-size: large !important;
+    color: #222222;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    background-color: #222222 !important;
+    display: table !important;
+    color: white !important;
+    width: 100px !important;
+    font-size: large !important;
+}

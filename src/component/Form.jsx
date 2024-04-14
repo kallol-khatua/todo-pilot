@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./Form.css";
 
 function Form({ addTodo }) {
   const [task, setTask] = useState("");
@@ -38,12 +39,15 @@ function Form({ addTodo }) {
         <input
           type="text"
           name="task"
-          placeholder="Enter task"
+          placeholder="Enter your task"
           value={task}
+          className="form-control"
+          id="inputfield"
           onChange={handleChange}
         />
         <br />
-        <button type="submit">Submit</button>
+        {/* btn-outline-light */}
+        <button className="btn btn-outline-light" type="submit">Add</button>
       </form>
     </div>
   );

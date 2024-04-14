@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather");
+@import url("https://fonts.googleapis.com/css?family=Anton");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather',sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  /* max-height: 100vh; */
+  width: 100vw;
+  background: linear-gradient(180deg, #141c3a, #013437);
+}
+
+#root{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
